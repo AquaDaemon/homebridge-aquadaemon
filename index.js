@@ -287,7 +287,8 @@ AquaDaemonInstance.prototype.synchronizeAccessories = function () {
         var incomingHkType = Utils.adDevice2hkSDevice(this.instanceName, incomingMappedType);
 
         // Skip excluded devices, removing from cache if previously registered.
-        if (excludedDevices.indexOf(device.id) > -1) {
+        //if (excludedDevices.indexOf(device.id) > -1) {
+        if (excludedDevices.indexOf(Utils.unNormalizeID(device)) > -1) {
           if (existingAccessory) {
             this.log("Removing excluded device: " + existingAccessory.name);
             removedAccessories.push(existingAccessory);

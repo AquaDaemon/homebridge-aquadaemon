@@ -1,10 +1,16 @@
 # Change Log
 
+
+## v1.0.4 (2026-09-14)
+### Featured Changes
+* Fixed bug when using excludeDevices with other configuration options.
+* Fixed bug with programmable lights.
+* Added a sprinkler type.
+
 ## v1.0.3 (2026-09-06)
 ### Featured Changes
 * Added config option `Show Tank Volume in Original Units`  to display remaining chemical tank volume in its original unit (gallons or litres, as reported by AquachemD) instead of a percentage.
 * Changed the display name in Homebridge UI
-
 
 ## v1.0.2 (2026-09-05)
 ### Featured Changes
