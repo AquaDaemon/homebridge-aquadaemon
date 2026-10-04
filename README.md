@@ -1,11 +1,10 @@
 <div align="right">
   <a href="https://aquadaemon.org">
     <img
-      src="https://aquadaemon.org/images/aquadaemon.png"
-      width="48"
+      src="https://aquadaemon.org/images/by-aquadaemon.png"
+      height="48"
       alt="AquaDaemon">
   </a>
-  <sub>An AquaDaemon project</sub>
 </div>
 
 <p align="center">
