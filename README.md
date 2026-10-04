@@ -1,34 +1,22 @@
-<p align="center">
+<div align="right">
   <a href="https://aquadaemon.org">
     <img
       src="https://aquadaemon.org/images/aquadaemon.png"
-      width="32"
-      align="right"
+      width="48"
       alt="AquaDaemon">
   </a>
+  <sub>An AquaDaemon project</sub>
+</div>
 
+<p align="center">
   <img
     src="https://aquadaemon.org/images/homebridge-aquadaemon.png"
     width="120"
-    align="center"
     alt="AquaDaemon Homebridge plugin">
 </p>
 
 <h1 align="center">AquaDaemon Homebridge plugin</h1>
 
-
-<p align="center">
-  <a href="https://aquadaemon.org">
-    <img src="https://aquadaemon.org/images/aquadaemon.png"
-         width="28"
-         alt="AquaDaemon">
-  </a>
-  <sub>An AquaDaemon project</sub>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://aquadaemon.org/images/homebridge-aquadaemon.png"
-       width="120"
-       alt="AquaDaemon Homebridge plugin">
-</p>
 
 #
 
