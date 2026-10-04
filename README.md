@@ -1,10 +1,47 @@
 
+<table width="100%">
+<tr>
+<td width="25%"></td>
+<td align="center" width="50%">
+  <img src="https://aquadaemon.org/images/homebridge-aquadaemon.png"
+       width="120"
+       alt="AquaDaemon Homebridge plugin">
+</td>
+<!--<td width="25%">&nbsp;</td>-->
+<td align="left" width="25%">
+  <img src="https://aquadaemon.org/images/aquadaemon.png"
+       width="60"
+       alt="AquaDaemon"><br>
+  <sub>An AquaDaemon project</sub>
+</td>
+</tr>
+</table>
+
+
+<h1 align="center">AquaDaemon Homebridge plugin</h1>
+
+
+<p align="center">
+  <img src="https://aquadaemon.org/images/aquadaemon.png"
+       width="60"
+       alt="AquaDaemon">
+  <sub>An AquaDaemon project</sub>
+  &nbsp;&nbsp;
+  <img src="https://aquadaemon.org/images/homebridge-aquadaemon.png"
+       width="120"
+       alt="AquaDaemon Homebridge plugin">
+</p>
+
+<h1 align="center">AquaDaemon Homebridge plugin</h1>
+
+
+<!--
 <p align="center">
   <img src="https://aquadaemon.org/images/homebridge-aquadaemon.png" width="120" alt="AquachemD logo">
 </p>
 
 <h1 align="center">AquaDaemon Homebridge plugin</h1>
-
+-->
 # homebridge-aquadaemon
 
 [![npm](https://img.shields.io/npm/v/homebridge-aquadaemon)](https://www.npmjs.com/package/homebridge-aquadaemon)
