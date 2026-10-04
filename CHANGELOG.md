@@ -1,6 +1,8 @@
 # Change Log
-
-
+<!--
+## v1.0.5 (current dev)
+* Integrate SprinklerD fully. (fix not setting duration correctly, & not showing when turned on outside homekit)
+-->
 ## v1.0.4 (2026-09-14)
 ### Featured Changes
 * Fixed bug when using excludeDevices with other configuration options.

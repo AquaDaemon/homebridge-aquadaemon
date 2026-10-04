@@ -235,6 +235,7 @@ function AquaDaemonInstance(log, config, api, masterPlatform) {
     var device = platformAccessory.context.device;
     var uuid = platformAccessory.context.uuid;
     this.forceLog("Loading cached accessory: " + (device.label || device.name)+ " - "+ Utils.adDevice2hkString(this.instanceName, device.mappedType));
+    //this.forceLog(this.instanceName + " - " + this.serverType + " - " + (device.label || device.name)+ " - " + device.mappedType);
     // Below is nicer formatted, but only looks good in full log.
     //this.forceLog(`Loading cached accessory: ${String(device.label || device.name).padEnd(25)} - ${Utils.adDevice2hkString(device.mappedType)}`);
     return new AquaDaemonAccessory(this, platformAccessory, device.id, device, uuid);
@@ -290,7 +291,7 @@ AquaDaemonInstance.prototype.synchronizeAccessories = function () {
         //if (excludedDevices.indexOf(device.id) > -1) {
         if (excludedDevices.indexOf(Utils.unNormalizeID(device)) > -1) {
           if (existingAccessory) {
-            this.log("Removing excluded device: " + existingAccessory.name);
+            this.forceLog("Removing excluded device: " + existingAccessory.name);
             removedAccessories.push(existingAccessory);
             try {
               this.api.unregisterPlatformAccessories(pluginName, platformName, [existingAccessory.platformAccessory]);
