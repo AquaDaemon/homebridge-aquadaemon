@@ -1,7 +1,7 @@
 <div align="right">
   <a href="https://aquadaemon.org">
     <img
-      src="https://aquadaemon.org/images/by-aquadaemon.png"
+      src="https://aquadaemon.org/images/aquadaemon-project2.png"
       height="48"
       alt="AquaDaemon">
   </a>
@@ -16,8 +16,6 @@
 
 <h1 align="center">AquaDaemon Homebridge plugin</h1>
 
-
-#
 
 <!--
 <p align="center">
