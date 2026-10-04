@@ -5,7 +5,6 @@
 
 <h1 align="center">AquaDaemon Homebridge plugin</h1>
 
-
 # homebridge-aquadaemon
 
 [![npm](https://img.shields.io/npm/v/homebridge-aquadaemon)](https://www.npmjs.com/package/homebridge-aquadaemon)
